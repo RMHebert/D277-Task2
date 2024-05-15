@@ -1,66 +1,74 @@
-<!-- DOCTYPE html -->
-<html lang="en">
+<!DOCTYPE html>
+<html>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Contact Us</title>
-        <h1>Contact Us</h1>
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <script src="scripts.js"></script>
     </head>
 
     <body>
-        <p>D.  Add a form on one page of your website by doing the following:</p>
-        
-        <p>Note: The form does not need to include a functional Submit button.</p>
-        
-        <p>•   Include text fields for the user’s first name, the user’s last name, and the user’s email address, as well as a confirmation field for the email address for verification purposes and a text box that allows the user to ask a question.</p>
-        
-        <p>•   Ensure all fields contain placeholders.</p>
-        
-        <p>•   Include JavaScript code that verifies the email fields match when a user enters a second email address.</p>
+        <header>
+            <h1>Contact Us</h1>
+        </header>
 
-
-
-
-
-        <form>
-            <div class="container">
-                <div class="left">
-                    <label for="f-name" >First Name:</label>
-                    <input type="text" id="f-name" name="f-name" placeholder="enter first name" required>
+        <main>
+            <section>
+                <div>
+                    <div>
+                        <img class="pos-left" src="assets/ThankYou.png" alt="Image that says 'Thank you'"/>
+                    </div>
+                    <div>
+                        <img class="pos-right" src="assets/ThankYou.png" alt="Image that says 'Thank you'"/>
+                    </div>
                 </div>
-                <div class="right">
-                    <label for="l-name">Last Name:</label>
-                    <input type="text" id="l-name" name="l-name" placeholder="enter last name" required> 
-                </div>
-            </div><br>
+            <section>
+            <br>
 
-            <div class="container">
-                <div class="left">
-                    <label for="email">Email:</label>
-                    <input type="text" id="email" name="email" placeholder="enter email" required>
-                </div>
-                <div class="right">
-                    <label for="confirmer">Email:</label>
-                    <input type="text" id="confirmer" name="confirmer" placeholder="confirm email" required>
-                </div>
-            </div><br>
+            <aside>
+                <form>
+                    <div class="container">
+                        <div class="left">
+                            <label for="f-name" >First Name:</label>
+                            <input type="text" id="f-name" name="f-name" placeholder="enter first name" required>
+                        </div>
+                        <div class="right">
+                            <label for="l-name">Last Name:</label>
+                            <input type="text" id="l-name" name="l-name" placeholder="enter last name" required> 
+                        </div>
+                    </div><br>
+        
+                    <div class="container">
+                        <div class="left">
+                            <label for="email">Email:</label>
+                            <input type="text" id="email" name="email" placeholder="enter email" required>
+                        </div>
+                        <div class="right">
+                            <label for="confirmer">Email:</label>
+                            <input type="text" id="confirmer" name="confirmer" placeholder="confirm email" required>
+                        </div>
+                    </div><br>
+        
+                    <label for="feedback">Questions? Comments? Feedback?</label>
+                    <textarea id="feedback" name="feedback" placeholder="Want to engage? We appreciate your interest!"></textarea><br>
+        
+                    <input type="submit" value="Submit">
+                </form>
+            </aside>
+        </main>
 
-            <label for="feedback">Questions? Comments? Feedback?</label>
-            <textarea id="feedback" name="feedback" placeholder="Want to engage? We appreciate your interest!"></textarea><br>
-
-            <input type="submit" value="Submit">
+        <footer>
+            <div class="nav">
+                <li><a class="button" href="index.html">Home</a></li>
+                <li><a class="button" href="lansing.html">Lansing</a></li>
+                <li><a class="button" href="grandrapids.html">Grand Rapids</a></li>
+                <li><a class="button" href="marquette.html">Marquette</a></li>
+                <li><a class="button" href="contact-us.html">Contact Us</a></li>
+            </div>
+        </footer>
     </body>
-
-    <footer>
-        <div class="nav">
-            <li><a class="button" href="index.html">Home</a></li>
-            <li><a class="button" href="lansing.html">Lansing</a></li>
-            <li><a class="button" href="grandrapids.html">Grand Rapids</a></li>
-            <li><a class="button" href="marquette.html">Marquette</a></li>
-            <li><a class="button" href="contact-us.html">Contact Us</a></li>
-        </div>
-    </footer>
-
-    <link rel="stylesheet" href="./style.css" />
-    <script src="scripts.js"></script>
 </html>

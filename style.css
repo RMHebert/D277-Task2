@@ -25,8 +25,16 @@ h1 {
 }
 
 
+h2 {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
 body {
-    background-color: #E3FEF7
+    background-color: #E3FEF7;
+    padding-bottom: 50px;
 }
 
 
@@ -86,8 +94,31 @@ ol, ul {
 }
 
 
-#cite {
+#cite, #cite-table, #cite-right {
     font-size: 0.5rem;
+}
+
+
+#cite-right {
+    text-align: right;
+}
+
+
+#cite-table {
+    margin-top: 30px;
+}
+
+
+#float-right {
+    float: right;
+    width: 440px;
+    padding-left: 10px;
+    margin-top: 0px;
+}
+
+
+#float-left {
+    margin-top: 20px;
 }
 
 
@@ -150,6 +181,20 @@ footer {
 }
 
 
+.pos-left{
+    position: absolute;
+    width: 100px;
+    left: 10%;
+}
+
+
+.pos-right{
+    position: relative;
+    left: 60%;
+    width: 100px;
+}
+
+
 #f-name, #l-name {
     width: 200px;
 }
@@ -202,6 +247,10 @@ a:hover, a:active {
 @media (min-width: 1000px) {
     img {
       margin-left: 100px;
+    }
+
+    h2 {
+        margin-top: 300px;
     }
 }
 
